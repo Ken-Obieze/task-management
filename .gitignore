@@ -1,0 +1,30 @@
+# Node Modules
+node_modules
+
+# Environment Variables
+.env
+
+# Build Directories
+dist
+
+# Coverage Directories
+coverage
+
+# Temporary Files
+tmp
+
+# Temporary Files (macOS)
+.DS_Store
+
+# Temporary Files (Windows)
+Thumbs.db
+
+# IDE Specific Files
+.idea
+
+# Logs and Debugging
+logs
+*.log
+npm-debug.log
+yarn-error.log
+.vscode
