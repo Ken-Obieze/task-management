@@ -151,50 +151,50 @@ Swagger: You can access interactive documentation at http://localhost:<PORT>/api
 
 ## Project Structure
 
-// task-managemnet
-// ├── src/
-// │   ├── config/
-// │   │   ├── db.config.ts
-// │   │   ├── redis.config.ts
-// │   │   └── socket.config.ts
-// │   ├── controllers/
-// │   │   ├── auth.controller.ts
-// │   │   └── task.controller.ts
-// │   ├── middlewares/
-// │   │   ├── auth.middleware.ts
-// │   │   ├── error.middleware.ts
-// │   │   └── rbac.middleware.ts
-// │   ├── models/
-// │   │   ├── task.model.ts
-// │   │   └── user.model.ts
-// │   ├── routes/
-// │   │   ├── auth.routes.ts
-// │   │   └── task.routes.ts
-// │   ├── services/
-// │   │   ├── auth.service.ts
-// │   │   ├── cache.service.ts
-// │   │   └── task.service.ts
-// │   ├── utils/
-// │   │   ├── jwt.utils.ts
-// │   │   ├── logger.ts
-// │   │   └── password.utils.ts
-// │   ├── app.ts
-// │   └── server.ts
-// ├── tests/
-// │   ├── integration/
-// │   │   ├── auth.test.ts
-// │   │   └── task.test.ts
-// │   └── unit/
-// │       ├── auth.service.test.ts
-// │       └── task.service.test.ts
-// ├── .env
-// ├── .gitignore
-// ├── .dockerignore
-// ├── docker-compose.yml
-// ├── Dockerfile
-// ├── package.json
-// ├── jest.config.json
-// ├── jest.setup.ts
-// ├── README.md
-// ├── 
-// └── tsconfig.json
+task-managemnet
+├── src/
+│   ├── config/
+│   │   ├── db.config.ts
+│   │   ├── redis.config.ts
+│   │   └── socket.config.ts
+│   ├── controllers/
+│   │   ├── auth.controller.ts
+│   │   └── task.controller.ts
+│   ├── middlewares/
+│   │   ├── auth.middleware.ts
+│   │   ├── error.middleware.ts
+│   │   └── rbac.middleware.ts
+│   ├── models/
+│   │   ├── task.model.ts
+│   │   └── user.model.ts
+│   ├── routes/
+│   │   ├── auth.routes.ts
+│   │   └── task.routes.ts
+│   ├── services/
+│   │   ├── auth.service.ts
+│   │   ├── cache.service.ts
+│   │   └── task.service.ts
+│   ├── utils/
+│   │   ├── jwt.utils.ts
+│   │   ├── logger.ts
+│   │   └── password.utils.ts
+│   ├── app.ts
+│   └── server.ts
+├── tests/
+│   ├── integration/
+│   │   ├── auth.test.ts
+│   │   └── task.test.ts
+│   └── unit/
+│       ├── auth.service.test.ts
+│       └── task.service.test.ts
+├── .env
+├── .gitignore
+├── .dockerignore
+├── docker-compose.yml
+├── Dockerfile
+├── package.json
+├── jest.config.json
+├── jest.setup.ts
+├── README.md
+├── 
+└── tsconfig.json
